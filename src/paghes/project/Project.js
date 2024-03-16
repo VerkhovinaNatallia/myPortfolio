@@ -27,7 +27,7 @@ const Project = () => {
                 <BtnGitHub link={project.gitHubLink}/>
                 {project.figma &&(
                     <a href={project.figma} className='project-figma'> 
-                        Макет Figma
+                        Layout Figma
                    </a>     
                 )}
 
