@@ -24,8 +24,11 @@ const Project = () => {
                 <div className="project-details__desc">
                     <p>{project.skills}</p>
                 </div>
-                {project.gitHubLink &&(
-                    <BtnGitHub link={project.gitHubLink}/>
+                <BtnGitHub link={project.gitHubLink}/>
+                {project.figma &&(
+                    <a href={project.figma} className='project-figma'> 
+                        Макет Figma
+                   </a>     
                 )}
 
             </div>

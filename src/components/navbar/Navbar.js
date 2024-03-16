@@ -13,16 +13,16 @@ const Navbar = () => {
         <nav className="nav">
         <div className="container">
             <div className="nav-row">
-                <NavLink to='/' className="logo">
+                <NavLink to='/myPortfolio' className="logo">
                     <strong>Freelancer</strong> portfolio</NavLink>
 
                 <BtnDarkMode/>
 
                 <ul className="nav-list">
-                    <li className="nav-list__item"><NavLink to='/' className={({isActive})=> isActive ? activeLink : normalLink}>Home</NavLink></li>
-                    <li className="nav-list__item"><NavLink to='/skils' className={({isActive})=> isActive ? activeLink : normalLink}>Skils</NavLink></li>
-                    <li className="nav-list__item"><NavLink to='/projects' className={({isActive})=> isActive ? activeLink : normalLink}>Projects</NavLink></li>
-                    <li className="nav-list__item"><NavLink to='/contacts' className={({isActive})=> isActive ? activeLink : normalLink}>Contacts</NavLink></li>
+                    <li className="nav-list__item"><NavLink to='/myPortfolio' className={({isActive})=> isActive ? activeLink : normalLink}>Home</NavLink></li>
+                    <li className="nav-list__item"><NavLink to='/myPortfolio/skils' className={({isActive})=> isActive ? activeLink : normalLink}>Skils</NavLink></li>
+                    <li className="nav-list__item"><NavLink to='/myPortfolio/projects' className={({isActive})=> isActive ? activeLink : normalLink}>Projects</NavLink></li>
+                    <li className="nav-list__item"><NavLink to='/myPortfolio/contacts' className={({isActive})=> isActive ? activeLink : normalLink}>Contacts</NavLink></li>
                 </ul>
             </div>
         </div>

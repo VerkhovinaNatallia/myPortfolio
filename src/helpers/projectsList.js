@@ -63,6 +63,7 @@ const projects = [
 		skills: 'JS, HTML, CSS',
 		link:'https://verkhovinanatallia.github.io/travel/',
         gitHubLink: 'https://github.com/VerkhovinaNatallia/travel',
+		figma:"https://www.figma.com/file/BhULVGGIachSAjoBazhP9P/Travel?node-id=1%3A2",
 	},
 	{
 		title: 'Книжный',
@@ -70,6 +71,7 @@ const projects = [
 		skills: 'React,React-router, CSS-module',
 		link:'https://verkhovinanatallia.github.io/library/',
         gitHubLink: 'https://github.com/VerkhovinaNatallia/library/tree/master',
+		figma:'https://www.figma.com/file/SGY7eOpXC1xBddFNsb72o7/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0-stage0',
 	},
 	{
 		title: 'Портфолио',
@@ -77,6 +79,7 @@ const projects = [
 		skills	:'React, CSS-module',
 		link:'https://verkhovinanatallia.github.io/portfolio/',
         gitHubLink: 'https://github.com/VerkhovinaNatallia/portfolio/tree/master',
+		figma:'https://www.figma.com/file/1A1SJ7FYyMUiBqhU3WUiBI/Portfolio',	
 	},
 	{
 		title: 'Растения',
@@ -84,6 +87,7 @@ const projects = [
 		skills: 'JS, CSS',
 		link:' https://verkhovinanatallia.github.io/plants/',
         gitHubLink: 'https://github.com/VerkhovinaNatallia/plants',
+		figma:'https://www.figma.com/file/ntVt8IwlwzfVFMBuVVAze8/Plants?node-id=0%3A1',
 	},
 	{
 		title: 'Баян',

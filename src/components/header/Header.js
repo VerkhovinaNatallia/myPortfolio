@@ -12,8 +12,8 @@ const Header = () => {
             <div className="header__text">
                 <p>I have completed Front-end courses at IT School Intellect Fox and have basic knowledge of HTML, CSS, JavaScript, React and Redux.</p>
             </div>
-            <a href="#!" className="btn">Download CV</a>
-        </div>c
+            
+        </div>
         <img src={image} alt='foto' className='foto'/>
     </header>
     );
