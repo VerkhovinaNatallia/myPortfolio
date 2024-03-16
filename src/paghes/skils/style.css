@@ -1,0 +1,40 @@
+.skils{
+    display: flex;
+    gap:50px;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 70px 50px;
+
+}
+.skils__title{
+    margin-bottom: 60px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--title-1);
+    text-align: center;
+}
+.skils__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 5%;
+    justify-content: center;   
+}
+.skils__item{
+    padding: 20px 0;
+    flex: 0 0 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #3A4576;
+    gap: 20px;
+    border-radius:10% 10% 0 0;
+}
+.skils__name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
