@@ -19,10 +19,10 @@ const Navbar = () => {
                 <BtnDarkMode/>
 
                 <ul className="nav-list">
-                    <li className="nav-list__item"><NavLink to='/myPortfolio' className={({isActive})=> isActive ? activeLink : normalLink}>Home</NavLink></li>
-                    <li className="nav-list__item"><NavLink to='/myPortfolio/skils' className={({isActive})=> isActive ? activeLink : normalLink}>Skils</NavLink></li>
-                    <li className="nav-list__item"><NavLink to='/myPortfolio/projects' className={({isActive})=> isActive ? activeLink : normalLink}>Projects</NavLink></li>
-                    <li className="nav-list__item"><NavLink to='/myPortfolio/contacts' className={({isActive})=> isActive ? activeLink : normalLink}>Contacts</NavLink></li>
+                    <li className="nav-list__item"><NavLink to='/myPortfolio' className={({isActive})=> isActive ?activeLink : ''}>Главная</NavLink></li>
+                    <li className="nav-list__item"><NavLink to='/myPortfolio/skils' className={({isActive})=> isActive ? activeLink : normalLink}>Навыки</NavLink></li>
+                    <li className="nav-list__item"><NavLink to='/myPortfolio/projects' className={({isActive})=> isActive ? activeLink : normalLink}>Проекты</NavLink></li>
+                    <li className="nav-list__item"><NavLink to='/myPortfolio/contacts' className={({isActive})=> isActive ? activeLink : normalLink}>Контакты</NavLink></li>
                 </ul>
             </div>
         </div>

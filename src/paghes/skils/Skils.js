@@ -7,7 +7,7 @@ const Skils = () => {
     
     return ( 
         <main className='skils'>
-        <h1 className='skils__title'>Skils</h1>
+        <h1 className='skils__title'>Навыки</h1>
         <ul className='skils__list'>
             {skilsList.map((prop)=>{
                 return(

@@ -7,12 +7,12 @@ const Contacts = () => {
         <main className="section">
         
         <div className="container">
-                <h1 className="title-1">Contacts</h1>
+                <h1 className="title-1">Контакты</h1>
 
                 <ul className="content-list">
                     <li className="content-list__item">
-                        <h2 className="title-2">Location</h2>
-                        <p>Minsk, Belarus</p>
+                        <h2 className="title-2">Локация</h2>
+                        <p>Минск, Беларусь</p>
                     </li>
                     <li className="content-list__item">
                         <h2 className="title-2">Telegram / Viber</h2>

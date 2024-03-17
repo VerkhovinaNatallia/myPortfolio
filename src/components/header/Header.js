@@ -6,11 +6,11 @@ const Header = () => {
         <header className="header">
         <div className="header__wrapper">
             <h1 className="header__title">
-                <strong>Hi, my name is <em>Natallia</em></strong><br/>
-                a frontend developer
+                <strong>Привет, меня зовут <em>Наталья</em></strong><br/>
+                Фронтенд-разработчик
             </h1>
             <div className="header__text">
-                <p>I have completed Front-end courses at IT School Intellect Fox and have basic knowledge of HTML, CSS, JavaScript, React and Redux.</p>
+                <p>Я закончил курсы Front-end в IT-школе Intellect Fox и имею базовые знания HTML, CSS, JavaScript, React и Redux.</p>
             </div>
             
         </div>
