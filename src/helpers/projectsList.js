@@ -58,7 +58,7 @@ const projects = [
         gitHubLink: 'https://github.com/VerkhovinaNatallia/pogoda/',
 	},
 	{
-		title: 'Путишествие',
+		title: 'Путешествия',
 		img: project07,
 		skills: 'JS, HTML, CSS',
 		link:'https://verkhovinanatallia.github.io/travel/',

@@ -10,7 +10,7 @@ const Header = () => {
                 Фронтенд-разработчик
             </h1>
             <div className="header__text">
-                <p>Я закончил курсы Front-end в IT-школе Intellect Fox и имею базовые знания HTML, CSS, JavaScript, React и Redux.</p>
+                <p>Я закончила курсы Front-end в IT-школе Intellect Fox и имею базовые знания HTML, CSS, JavaScript, React и Redux.</p>
             </div>
             
         </div>
